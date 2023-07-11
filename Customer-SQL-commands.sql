@@ -259,13 +259,6 @@ c119 kajal           mumbai          f 7890178901
 
 14 rows selected.
 
-SQL> select * from cust order by gender='m';
-select * from cust order by gender='m'
-                                  *
-ERROR at line 1:
-ORA-00933: SQL command not properly ended
-
-
 SQL> select * from cust where gender='m';
 
 CUST CNAME           CITY            G       PHNO
