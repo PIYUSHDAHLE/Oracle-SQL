@@ -1,11 +1,11 @@
 create table cust
-  (
-  custid varchar2(4),
-  cname varchar2(15),
-  city varchar2(15),
-  gender varchar2(1),
-  phno number(10)
-  );
+(
+custid varchar2(4),
+cname varchar2(15),
+city varchar2(15),
+gender varchar2(1),
+phno number(10)
+);
 
 
 insert into cust values('c101','hari krishna','hyderabad','m',9800198001);
