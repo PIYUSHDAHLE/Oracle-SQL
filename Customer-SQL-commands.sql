@@ -1,72 +1,42 @@
+create table cust
+  (
+  custid varchar2(4),
+  cname varchar2(15),
+  city varchar2(15),
+  gender varchar2(1),
+  phno number(10)
+  );
 
-SQL> create table cust
-  2  (
-  3  custid varchar2(4),
-  4  cname varchar2(15),
-  5  city varchar2(15),
-  6  gender varchar2(1),
-  7  phno number(10)
-  8  );
 
-Table created.
+insert into cust values('c101','hari krishna','hyderabad','m',9800198001);
 
-SQL> insert into cust values('c101','hari krishna','hyderabad','m',9800198001);
+insert into cust values('c100','ravi teja','hyderabad','m',9877687667);
 
-1 row created.
+insert into cust values('c200','vikram raj','chennai','m',8790687906);
 
-SQL> insert into cust values('c100','ravi teja','hyderabad','m',9877687667);
+insert into cust values('c205','rama krishna','chennai','m',8765987659);
 
-1 row created.
+insert into cust values('c301','trisha','chennai','f',null);
 
-SQL> insert into cust values('c200','vikram raj','chennai','m',8790687906);
+insert into cust values('c201','kruthi','hyderabad','f',6789067890);
 
-1 row created.
+insert into cust values('c119','kajal','mumbai','f',7890178901);
 
-SQL> insert into cust values('c205','rama krishna','chennai','m',8765987659);
+insert into cust values('c115','arjun','chennai','m',9988770022);
 
-1 row created.
+insert into cust values('c345','vijay antony','chennai','m',7890278902);
 
-SQL> insert into cust values('c301','trisha','chennai','f',null);
+insert into cust values('c245','samyuktha','kerala','f',null);
 
-1 row created.
+insert into cust values('c321','samantha','chennai','f',6566676869);
 
-SQL> insert into cust values('c201','kruthi','hyderabad','f',6789067890);
+insert into cust values('c392','pooja','bangalore','f',8976689766);
 
-1 row created.
+insert into cust values('c004','ranvi kapoor','mumbai','f',7888981828);
 
-SQL> insert into cust values('c119','kajal','mumbai','f',7890178901);
+insert into cust values('c005','ishan','mumbai','m',7788991122);
 
-1 row created.
-
-SQL> insert into cust values('c115','arjun','chennai','m',9988770022);
-
-1 row created.
-
-SQL> insert into cust values('c345','vijay antony','chennai','m',7890278902);
-
-1 row created.
-
-SQL> insert into cust values('c245','samyuktha','kerala','f',null);
-
-1 row created.
-
-SQL> insert into cust values('c321','samantha','chennai','f',6566676869);
-
-1 row created.
-
-SQL> insert into cust values('c392','pooja','bangalore','f',8976689766);
-
-1 row created.
-
-SQL> insert into cust values('c004','ranvi kapoor','mumbai','f',7888981828);
-
-1 row created.
-
-SQL> insert into cust values('c005','ishan','mumbai','m',7788991122);
-
-1 row created.
-
-SQL> select * from cust;
+select * from cust;
 
 CUST CNAME           CITY            G       PHNO
 ---- --------------- --------------- - ----------
