@@ -1,9 +1,9 @@
 create table cust
 (
-custid varchar2(4),
+custid varchar2(6),
 cname varchar2(15),
 city varchar2(15),
-gender varchar2(1),
+gender varchar2(6),
 phno number(10)
 );
 
