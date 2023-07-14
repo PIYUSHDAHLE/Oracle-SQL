@@ -1,62 +1,37 @@
 
-SQL> create table emps
-  2  (
-  3  empid number(5),
-  4  ename varchar2(15),
-  5  salary number(6),
-  6  desg varchar2(15),
-  7  joindt date
-  8  );
+create table emps
+(
+empid number(5),
+ename varchar2(15),
+salary number(6),
+desg varchar2(15),
+joindt date
+);
 
-Table created.
+insert into emps values(1901,'harsha',55000,'developer','22-jun-2022');
 
-SQL> insert into emps values(1901,'harsha',55000,'developer','22-jun-2022');
+insert into emps values(1923,'architha',50000,'developer','10-jun-2022');
 
-1 row created.
+insert into emps values(1900,'raj',30000,'developer','10-aug-2022');
 
-SQL> insert into emps values(1923,'architha',50000,'developer','10-jun-2022');
+insert into emps values(1920,'swathi',35000,'developer','14-feb-2023');
 
-1 row created.
+insert into emps values(1905,'wazid',32000,'developer','20-mar-2023');
 
-SQL> insert into emps values(1900,'raj',30000,'developer','10-aug-2022');
+insert into emps values(1904,'ananya',40000,'developer','25-aug-2022');
 
-1 row created.
+insert into emps values(1906,'raji',45000,'manager','11-jun-2022');
 
-SQL> insert into emps values(1920,'swathi',35000,'developer','14-feb-2023');
+insert into emps values(null,'bhavya',20000,'clerk','27-aug-2022');
 
-1 row created.
+insert into emps values(1933,'jahnavi',25000,'manager',null);
 
-SQL> insert into emps values(1905,'wazid',32000,'developer','20-mar-2023');
+insert into emps values(1942,'deva',40000,'manager','30-dec-2022');
 
-1 row created.
+insert into emps values(1908,'varsha',32000,'clerk','29-oct-2022');
 
-SQL> insert into emps values(1904,'ananya',40000,'developer','25-aug-2022');
+insert into emps values(1910,'sahasra',50000,'admin','14-sep-2022');
 
-1 row created.
-
-SQL> insert into emps values(1906,'raji',45000,'manager','11-jun-2022');
-
-1 row created.
-
-SQL> insert into emps values(null,'bhavya',20000,'clerk','27-aug-2022');
-
-1 row created.
-
-SQL> insert into emps values(1933,'jahnavi',25000,'manager',null);
-
-1 row created.
-
-SQL> insert into emps values(1942,'deva',40000,'manager','30-dec-2022');
-
-1 row created.
-
-SQL> insert into emps values(1908,'varsha',32000,'clerk','29-oct-2022');
-
-1 row created.
-
-SQL> insert into emps values(1910,'sahasra',50000,'admin','14-sep-2022');
-
-1 row created.
 
 SQL> set linesize 150;
 SQL> set pagesize 100;
