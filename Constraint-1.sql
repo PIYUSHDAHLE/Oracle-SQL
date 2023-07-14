@@ -27,3 +27,16 @@ SQL> insert into student values(2,'ram','oracle',2000,7987125247);
 SQL> insert into student values(3,'krishna','java',6000,9897125255);
 
 1 row created.
+
+
+SQL> select CONSTRAINT_NAME, CONSTRAINT_TYPE
+  2  from USER_CONSTRAINTS
+  3  where TABLE_NAME='STUDENT';
+
+CONSTRAINT_NAME                C
+------------------------------ -
+SYS_C007023                    C
+SYS_C007024                    C
+SYS_C007025                    C
+SYS_C007026                    P
+SYS_C007027                    U
